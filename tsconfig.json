@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "rootDir": "src",
+        "esModuleInterop": true,
+        "incremental": true,
+        "module": "ES2020",
+        "moduleResolution": "Node",
+        "newLine": "lf",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "strict": true,
+        "target": "ES2020"
+    }
+}

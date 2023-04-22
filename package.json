@@ -1,0 +1,35 @@
+{
+  "name": "hashtag-ext",
+  "version": "0.1.0",
+  "description": "Hashtag support on VSCode",
+  "keywords": [],
+  "author": {
+    "email": "vainzerox@gmail.com",
+    "name": "vain0x"
+  },
+  "license": "CC0-1.0",
+  "main": "./dist/extension.js",
+  "scripts": {
+    "tsc-watch": "tsc -w --preserveWatchOutput --noEmit",
+    "webpack-build": "webpack --mode production",
+    "webpack-watch": "webpack --mode development --watch",
+    "dev": "npm-run-concurrently tsc-watch webpack-watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^18.15.13",
+    "@types/vscode": "^1.77.0",
+    "run-concurrently": "^1.0.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.80.0",
+    "webpack-cli": "^5.0.2"
+  },
+  "publisher": "vain0x",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ]
+}
